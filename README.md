@@ -7,10 +7,19 @@ HiEval is an analytical framework that evaluates the performance of mappings on 
 HiEval leverage the [Integer Set Library](http://isl.gforge.inria.fr/) and the [Barvinok Library](http://barvinok.gforge.inria.fr/) to perform metrics analysis. To install required libraries, run our prepared script file [init.sh](init.sh).
 
 ## Project Structure
-The following is the file structure and directory overview of the project:
+The following is the file structure and directory overview of HiEval in the docker image:
+<div align="center">
+  <img src="./figure1.png", width="500">
+</div>
 
+- **data**: Contains the spatial accelerator files and mapping representation files.
 - **docs**: Includes project documentation files such as technical specifications, user manuals, etc.
+- **frontend**: Contains the necessary resource files for the tool that performs static analysis on C kernels.
+- **python**: Contains the necessary source code for the HiEval.
+- **HiEval.sh**: Main file for the project.
+- **init.sh**: Auxiliary script files for installing crucial dependencies.
 - **README.md**: Provides an overview of the project, installation instructions, and usage documentation.
+
 
 ## Installation
 Please see [Installation guide](./docs/installation_guide.md)
