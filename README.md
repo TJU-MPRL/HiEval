@@ -28,8 +28,8 @@ NOTE: Currently, we are restructuring and refactoring codes. Please stay tuned f
 We offer a Docker image that contains all the necessary dependencies and source codes.
 To start with HiEval, get the docker image and run a container using the image.
 ```
-  $ sudo docker pull registry.cn-hangzhou.aliyuncs.com/mprl/hieval:v0.2
-  $ sudo docker run -tid --name=HiEval registry.cn-hangzhou.aliyuncs.com/mprl/hieval:v0.2 /bin/bash
+  $ sudo docker pull registry.cn-beijing.aliyuncs.com/mprl/hieval:1.0
+  $ sudo docker run -tid --name=HiEval registry.cn-beijing.aliyuncs.com/mprl/hieval:1.0 /bin/bash
   $ docker attach HiEval
 ```
 
