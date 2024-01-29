@@ -32,6 +32,7 @@ To start with HiEval, get the docker image and run a container using the image.
   $ sudo docker run -tid --name=HiEval registry.cn-beijing.aliyuncs.com/mprl/hieval:1.0 /bin/bash
   $ docker attach HiEval
 ```
+To prevent potential pull failures attributed to network issues, an alternative approach is to download the Docker image using the provided link: [HiEval](https://drive.google.com/file/d/1pvTnDQvZX58vsrzPdfEfatPjp6V6b-8x/view?usp=sharing).
 
 ### Run HiEval
 After installated, activate the virtual environment. In this tutorial, the working directory is in the same directory as the HiEval.
